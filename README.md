@@ -1,25 +1,43 @@
-Laca-stílus Portré Generátor v3.1
+Laca-style Portrait Generator v3.1
 
-Ez egy React-alapú webes alkalmazás, amely a Google Gemini AI segítségével alakít át fotókat professzionális grafitrajzokká.
+A React-based web application that uses Google Gemini AI to transform photos and images into professional, noise-filtered black and white graphite sketches.
 
-Mi az a "Laca-stílus"?
+What is "Laca-style"?
 
-Ez egy egyedi vizuális algoritmus, amely a következőkre épül:
+The "Laca-style" is a unique visual algorithm built on the following artistic principles:
 
-0% Szín: Tiszta fekete-fehér grafit élmény.
+0% Color: Pure black and white graphite experience for every image.
 
-Intelligens Izoláció: Automatikus fehér háttér.
+Intelligent Isolation: Automatically removes the background and places the subject in a clean, white environment.
 
-Művészi Textúra: Valódi ceruzavonások imitálása.
+Artistic Texture: Mimics real pencil strokes and professional cross-hatching.
 
-Zajszűrt Felületek: Sima, digitális szemcséktől mentes végeredmény.
+Noise-Filtered Surfaces: Minimal digital grain for a clean, sophisticated, and aesthetic result.
 
-Használat
+Detail Preservation: Precisely keeps facial features, textures, and important details of any object.
 
-Szerezz egy API kulcsot a Google AI Studio-ban.
+Getting an API Key (Step-by-Step)
 
-Illeszd be a kulcsot a LacaStyleGenerator.jsx fájlban az apiKey változóhoz.
+To use this application, you need a free Google Gemini API key. Here is how to get one:
 
-Futtasd az alkalmazást és élvezd a rajzokat!
+Visit the Google AI Studio website.
 
-Készült Laca kérései alapján, a művészi precizitás jegyében.
+Sign in with your Google account.
+
+Click on the "Get API key" button in the left sidebar.
+
+Select "Create API key in new project".
+
+Copy the long code provided (this is your API key).
+
+Usage
+
+Open the LacaStyleGenerator.jsx file in your code editor.
+
+Find the const apiKey = ""; line at the beginning of the file.
+
+Paste your own key between the quotes: const apiKey = "YOUR_API_KEY_HERE";.
+
+Save the file, run the application, and enjoy your professional sketches!
+
+Created based on Laca's unique artistic vision and requirements.
